@@ -1,27 +1,27 @@
-# [Whois](http://whoisrb.org/)
+# [Whois](http://whois.digidesk.org/)
 
 <tt>Whois</tt> is an intelligent — pure Ruby — WHOIS client and parser.
 
 This library was extracted from [RoboWhois](http://www.robowhois.com/) and [RoboDomain](http://robodomain.com/), and it's now in use at [DNSimple](https://dnsimple.com/). It has been performing queries in production since July 2009.
 
-[![Build Status](https://travis-ci.org/weppos/whois.svg?branch=master)](https://travis-ci.org/weppos/whois)
+[![Build Status](https://travis-ci.org/digideskio/whois.svg?branch=master)]((https://travis-ci.org/digideskio/whoisruby)
 
 
 ## Donate a coffee
 
-<p id="pledgie" class="alignright"><a href="https://pledgie.com/campaigns/11383"><img alt="Click here to lend your support to: whois and make a donation at pledgie.com !" src="https://pledgie.com/campaigns/11383.png?skin_name=chrome" border="0" style="max-width:100%;"></a></p>
+<p id="pledgie" class="alignright"><a href='https://pledgie.com/campaigns/32037'><img alt='Click here to lend your support to: whoisruby and make a donation at pledgie.com !' src='https://pledgie.com/campaigns/32037.png?skin_name=chrome' border='0' ></a>
 
-<tt>Whois</tt> is free software, but it requires a lot of coffee to write, test, and distribute it. You can support the development by [donating a coffee](https://pledgie.com/campaigns/11383).
+<tt>Whoisruby</tt> is an open source ruby application, which required a lot of coffee to write, test, and distribute it. You can support the development by [donating a coffee](https://pledgie.com/campaigns/32037).
 
 
 ## Features
 
-- Ability to lookup WHOIS record for [IPv4, IPv6, TLDs, and ICANN new gTLDs](http://whoisrb.org/manual/usage/#usage-objects)
-- Ability to [parse WHOIS responses](http://whoisrb.org/manual/parser/)
-- Flexible and extensible interface (e.g. You can define [custom servers](http://whoisrb.org/manual/server/) on the fly)
+- Ability to lookup WHOIS record for [IPv4, IPv6, TLDs, and ICANN new gTLDs](http://whois.digidesk.org//manual/usage/#usage-objects)
+- Ability to [parse WHOIS responses](http://whois.digidesk.org//manual/parser/)
+- Flexible and extensible interface (e.g. You can define [custom servers](http://whois.digidesk.org//manual/server/) on the fly)
 - Object oriented design, featuring 10 different design patterns
 - Pure Ruby library, without any external dependency other than Ruby itself
-- Successfully tested against several [Ruby implementations](http://whoisrb.org/manual/interpreters/)
+- Successfully tested against several [Ruby implementations](http://whois.digidesk.org//manual/interpreters/)
 
 
 ## Requirements
@@ -33,14 +33,14 @@ For older versions of Ruby, see the [CHANGELOG](CHANGELOG.md).
 
 ## Installation
 
-The best way to install <tt>Whois</tt> is via [RubyGems](https://rubygems.org/) — [Learn more](http://whoisrb.org/manual/installing/)
+The best way to install <tt>Whois</tt> is via [RubyGems](https://rubygems.org/) — [Learn more](http://whois.digidesk.org//manual/installing/)
 
     $ gem install whois
 
 
 ## Getting Started
 
-Note. This section covers only the essentials for getting started with the Whois library. The [documentation](http://whoisrb.org/documentation/) provides a more accurate explanation including tutorials, more examples and technical details about the client/server/record/parser architecture.
+Note. This section covers only the essentials for getting started with the Whois library. The [documentation](http://whois.digidesk.org/documentation/) provides a more accurate explanation including tutorials, more examples and technical details about the client/server/record/parser architecture.
 
 ### Querying a WHOIS
 
@@ -157,19 +157,19 @@ w.lookup("google.com")
 
 ## Contributing
 
-Direct questions and discussions to [Stack Overflow](https://stackoverflow.com/questions/tagged/whois-ruby).
+Direct questions and discussions to [Stack Overflow](https://stackoverflow.com/questions/tagged/whoisruby).
 
-[Pull requests](https://github.com/weppos/whois/pulls) are very welcome! Please include spec and/or feature coverage for every patch, and create a topic branch for every separate change you make.
+[Pull requests](https://github.com/digideskio/whoisruby/pulls) are very welcome! Please include spec and/or feature coverage for every patch, and create a topic branch for every separate change you make.
 
-Report issues or feature requests to [GitHub Issues](https://github.com/weppos/whois/issues).
+Report issues or feature requests to [GitHub Issues](https://github.com/digideskio/whoisruby/issues).
 
 
 ## More Information
 
-- [Homepage](http://whoisrb.org/)
-- [RubyGems](https://rubygems.org/gems/whois)
-- [Issues](https://github.com/weppos/whois)
-- [Stack Overflow](https://stackoverflow.com/questions/tagged/whois-ruby)
+- [Homepage](http://whois.digidesk.org/)
+- [RubyGems](https://rubygems.org/gems/whoisruby)
+- [Issues](https://github.com/digideskio/whoisruby)
+- [Stack Overflow](https://stackoverflow.com/questions/tagged/whoisruby)
 
 
 ## Versioning
@@ -179,4 +179,4 @@ Report issues or feature requests to [GitHub Issues](https://github.com/weppos/w
 
 ## License
 
-Copyright (c) 2009-2016 Simone Carletti. This is Free Software distributed under the MIT license.
+Copyright (c) 2009-2016 digidesk.org. This is Free Software distributed under the MIT license.
